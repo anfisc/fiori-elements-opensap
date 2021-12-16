@@ -14,6 +14,7 @@ Make sure to fulfill the following requirements:
 * You have created an ABAP Cloud Project in ADT that allows you to access your SAP BTP ABAP Environment instance (see [here](https://help.sap.com/viewer/5371047f1273405bb46725a417f95433/Cloud/en-US/99cc54393e4c4e77a5b7f05567d4d14c.html) for additional information). Your log-on language is English.
 * You have installed the [abapGit](https://github.com/abapGit/eclipse.abapgit.org) plug-in for ADT from the update site `http://eclipse.abapgit.org/updatesite/`.
 * You have installed the [ABAP Flight Reference Scenario for the ABAP RESTful Application Programming Model](https://github.com/SAP-samples/abap-platform-refscen-flight/blob/BTP-ABAP/README.md)
+* You have installed the [RAP Generator](https://github.com/SAP-samples/cloud-abap-rap). This package contains classes such as */dmo/cl_rap_node* that are needed by the */dmo/cl_fe_travel_generator*.     
 
 ## Download
 Use the abapGit plug-in to install the package <em>/DMO/FE_HANDS_ON</em> by executing the following steps:
